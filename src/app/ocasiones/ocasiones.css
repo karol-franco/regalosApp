@@ -1,0 +1,74 @@
+.cont-ocasiones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.tarjOcasion1{
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;   
+    background-position: center; 
+    color: white; 
+    align-items: center;
+    justify-content: center;
+      background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),   /* negro transparente */
+      rgba(0, 0, 0, 0.4)
+    ),url('/assets/ocasion1.jpg');
+
+}
+.ocasiones{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+.tarjOcasion2{
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;   
+    background-position: center; 
+    color: white; 
+      background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),   /* negro transparente */
+      rgba(0, 0, 0, 0.4)
+    ),url('/assets/ocasion2.jpg');
+}
+.tarjOcasion3{
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;   
+    background-position: center; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),   /* negro transparente */
+      rgba(0, 0, 0, 0.4)
+    ),url('/assets/ocasion3.webp');
+
+}
+.cont-ocasiones div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.verPlan{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: pink;
+    color: white;
+    border: none;
+    justify-content: flex-end;
+    
+}

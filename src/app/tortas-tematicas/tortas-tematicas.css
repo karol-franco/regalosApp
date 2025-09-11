@@ -1,0 +1,32 @@
+.p1Quienes{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+
+}
+.somos{
+    width: 60%;
+}
+.mision{
+    width: 30%;
+}
+.p1Quienes h1{
+    color: pink;
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 40px;
+}
+.fiabilidad{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.cartas{
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+
+}

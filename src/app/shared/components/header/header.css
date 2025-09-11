@@ -1,0 +1,48 @@
+
+.header{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 20px 50px;
+    
+}
+.nombrePag{
+    text-align: center;
+    width: 50%;
+    display: flex;
+}
+h1{
+    vertical-align: bottom;
+    font-size: 30px;
+    /*font-family: "Archivo Black", sans-serif;*/
+}
+.buscador{
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+.iconos{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+}
+.iconos i{
+    font-size: 20px;
+    padding: 5px;
+}
+.logito{
+    text-decoration: none;
+    color: black;
+}
+.compra{
+    text-decoration: none;
+    color: black;
+}
+.logotorta{
+    width: 60px;
+}
+.contactos{
+    display: flex;
+}

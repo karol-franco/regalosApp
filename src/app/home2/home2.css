@@ -1,0 +1,57 @@
+.imgHome{
+    width: 70%;
+}
+.inicio{
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+.txtInformativo{
+    font-weight: 800;
+    color: brown;
+
+}
+.containerImagen{
+    width: 60%;
+}
+.containerTexto{
+    width: 40%;
+    font-size: 40px;
+    justify-content: center;
+}
+h2{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}.promociones{
+    background-color: rgb(231, 231, 231);
+    padding: 50px;
+
+}
+.cont-cartas{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.cards img{
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+.cards button{
+    padding: 10px;
+    background-color: pink;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+}
+.bienvenida{
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+.containerImagen img{
+    width: 500px;
+}

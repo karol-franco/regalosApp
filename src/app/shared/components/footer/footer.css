@@ -1,0 +1,17 @@
+.logotorta{
+    width: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 20px;
+    color: white;
+}
+.nombre{
+    display: flex;
+}
+.contactos{
+    display: flex;
+    font-size: 1.3em;
+}

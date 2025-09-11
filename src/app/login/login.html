@@ -1,0 +1,30 @@
+<app-header></app-header>
+
+<div class="login-container" *ngIf="!isLoggedIn">
+  <h2>Iniciar Sesión</h2>
+
+  <div>
+    <label for="username">Usuario</label>
+    <input class="usuario" id="username" type="text" [(ngModel)]="username" />
+  </div>
+
+  <div>
+    <label for="password">Contraseña</label>
+    <input id="password" type="password" [(ngModel)]="password" />
+  </div>
+
+  <div>
+      <button (click)="onLogin()">Entrar</button>
+  </div>
+  <div><a href="./register">¿Aun no tienes una cuenta? Registrate</a></div>
+
+
+  <p *ngIf="errorMessage" style="color:red">{{ errorMessage }}</p>
+</div>
+
+<div *ngIf="isLoggedIn">
+  <h2>Bienvenido, {{ username }} 🎉</h2>
+  <button (click)="logout()">Cerrar sesión</button>
+</div>
+
+<app-footer></app-footer>

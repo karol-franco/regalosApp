@@ -1,0 +1,23 @@
+.regalos{
+    text-align: center;
+    background-color: rgb(233, 231, 231);
+}
+.cont-cartas{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+.cards button{
+    padding: 10px;
+    background-color: pink;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+}
