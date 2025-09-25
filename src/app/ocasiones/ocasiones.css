@@ -17,7 +17,7 @@
       background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),   /* negro transparente */
       rgba(0, 0, 0, 0.4)
-    ),url('/assets/ocasion1.jpg');
+    ),url('https://res.cloudinary.com/dtyvd3fim/image/upload/v1758194788/ocasion1_wobhhi.jpg');
 
 }
 .ocasiones{
@@ -37,7 +37,7 @@
       background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),   /* negro transparente */
       rgba(0, 0, 0, 0.4)
-    ),url('/assets/ocasion2.jpg');
+    ),url('https://res.cloudinary.com/dtyvd3fim/image/upload/v1758194687/ocasion2_jzxrgm.jpg');
 }
 .tarjOcasion3{
     background-color: white;
@@ -54,7 +54,7 @@
       background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),   /* negro transparente */
       rgba(0, 0, 0, 0.4)
-    ),url('/assets/ocasion3.webp');
+    ),url('https://res.cloudinary.com/dtyvd3fim/image/upload/v1758194687/ocasion3_vhhftf.webp');
 
 }
 .cont-ocasiones div{

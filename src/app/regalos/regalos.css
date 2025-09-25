@@ -1,23 +1,79 @@
-.regalos{
-    text-align: center;
-    background-color: rgb(233, 231, 231);
-}
+
 .cont-cartas{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+  margin-top: 50px;
 }
-.cards img{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    margin-top: 20px;
-    
+.regalos {
+  padding: 2rem;
+  text-align: center;
+  background: #fafafa;
+  min-height: 100vh;
 }
-.cards button{
-    padding: 10px;
-    background-color: pink;
-    border-radius: 10px;
-    border: none;
-    align-items: center;
+
+.regalos h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Contenedor de tarjetas */
+.cont-cartas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* Tarjeta individual */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 100%;
+  max-width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  height: 180px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: pink;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Botón */
+.card button {
+  background: pink;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background:pink;
 }
